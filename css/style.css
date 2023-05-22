@@ -1,0 +1,121 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+@import url('https://fonts.googleapis.com/css?family=Flow+Circular:400,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #383838;
+    background: #f4f4f4;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 600;
+}
+
+.top {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.top h1 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    color: #3f3f3f;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.main-message {
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.main-message h1 {
+    font-size: 4em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+}
+
+.main-message p {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.content {
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    overflow: hidden;
+}
+
+.steps-container {
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.steps-container h1 {
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+}
+
+.steps-container p {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.text-message-left {
+    background: #d7d7d7;
+    padding: 5px;
+    border-radius: 20px 20px 20px 0px;
+    width: 200px;
+}
+
+.text-message-right {
+    background: #d7d7d7;
+    padding: 5px;
+    border-radius: 20px 20px 0px 20px;
+    width: 200px;
+    float: right;
+}
+
+.text-message-fill-text {
+    font-family: 'flow circular', sans-serif;
+}
+
+.footer {
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    background: #ffffff;
+}
