@@ -114,17 +114,29 @@ p {
     font-family: 'flow circular', sans-serif;
 }
 
+.ofcom-link-button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ofcom-link {
+    text-decoration: none;
+    color: #383838;
+    font-weight: 600;
+    font-size: medium;
+}
+
 .footer {
     border-top: 2px solid #ccc;
     padding: 10px;
     background: #ffffff;
 }
-
-/* Make the following classes have a fade and grow in animation onload */
-
-/* main-message-stop
-main-message-block
-main-message-report */
 
 .main-message-stop {
     opacity: 0;
